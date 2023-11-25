@@ -1,6 +1,6 @@
 ﻿namespace BuilderAndFactory
 {
-    public class Pizza
+    public struct Pizza
     {
         public List<PizzaToppings> PizzaToppings { get; private set; }
         public PizzaBase PizzaBase { get; private set; }
